@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/cust_prod
     username: root
-    password: pranav
+    password: Pranav
 
   jpa:
     hibernate:
