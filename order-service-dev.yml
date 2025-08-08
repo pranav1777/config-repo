@@ -2,7 +2,7 @@ global:
 message: welcome to the order service environment
 
 server:
-port:8082
+port:8084
 
 message:Hello from order developer
 
