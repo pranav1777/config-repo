@@ -8,7 +8,7 @@ message: Hello from order developer
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/order_dev
+    url: jdbc:mysql://localhost:3306/ordermaster
     username: root
     password: pranav
 
