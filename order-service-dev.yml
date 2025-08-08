@@ -1,0 +1,17 @@
+global:
+message: welcome to the order service environment
+
+server:
+port:8082
+
+message:Hello from order developer
+
+spring:
+datasource:
+url:  url: jdbc:mysql://localhost:3306/order_dev
+username:root
+password:pranav
+jpa:
+hibernate:
+ddl-auto:update
+show-sql:true
