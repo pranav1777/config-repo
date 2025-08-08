@@ -1,17 +1,18 @@
 global:
-message: welcome to the customer service environment
+  message: Welcome to the customer service environment
 
 server:
-port:8082
+  port: 8082
 
-message:Hello from developer
+message: Hello from developer
 
 spring:
-datasource:
-url:  url: jdbc:mysql://localhost:3306/cust_dev
-username:root
-password:pranav
-jpa:
-hibernate:
-ddl-auto:update
-show-sql:true
+  datasource:
+    url: jdbc:mysql://localhost:3306/cust_dev
+    username: root
+    password: pranav
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
