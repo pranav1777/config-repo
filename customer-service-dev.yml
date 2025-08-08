@@ -1,5 +1,5 @@
 global:
-  message: Welcome to the customer service environment
+
 
 server:
   port: 8082
