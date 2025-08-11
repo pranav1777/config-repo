@@ -1,6 +1,3 @@
-global:
-
-
 server:
   port: 8082
 
@@ -11,7 +8,6 @@ spring:
     url: jdbc:mysql://localhost:3306/customer_master
     username: root
     password: Pranav
-
   jpa:
     hibernate:
       ddl-auto: update
