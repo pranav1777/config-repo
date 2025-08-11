@@ -3,7 +3,7 @@ spring:
     name: order-service
 
   datasource:
-        url: jdbc:h2:mem:orderdb
+    url: jdbc:h2:mem:orderdb
     driver-class-name: org.h2.Driver
 
   jpa:
