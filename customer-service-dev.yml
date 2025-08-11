@@ -6,9 +6,7 @@ message: Hello from developer
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/customer_master
-    username: root
-    password: Pranav
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
