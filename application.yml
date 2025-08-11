@@ -1,4 +1,4 @@
-global:
+
   message: Welcome to microservice project
 
 logging:
