@@ -9,21 +9,14 @@ message: Hello from order developer
 spring:
   datasource:
     url: jdbc:h2:mem:orderdb
-    driver-class-name: org.h2.Driver
     username: sa
     password: ""
     generate-unique-name: false
 
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
+
 
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-    properties:
-      hibernate:
-        format_sql: true
-    database-platform: org.hibernate.dialect.H2Dialect
+   
