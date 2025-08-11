@@ -1,5 +1,7 @@
-
-  message: Welcome to microservice project
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
 
 logging:
   level:
@@ -19,8 +21,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: update
